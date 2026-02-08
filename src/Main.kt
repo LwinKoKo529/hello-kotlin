@@ -3,5 +3,7 @@ fun main() {
 
     if(word == "world"){
         println("Hello World")
+    }else{
+        println("Hello Kotlin")
     }
 }
