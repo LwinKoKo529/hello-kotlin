@@ -1,9 +1,11 @@
 fun main() {
-    val word = "world"
+    val trafficLight = "Red"
 
-    if(word == "world"){
-        println("Hello World")
+    if(trafficLight == "Red"){
+        println("Stop")
+    }else if(trafficLight == "Yellow"){
+        println("Slow")
     }else{
-        println("Hello Kotlin")
+        println("Go")
     }
 }
